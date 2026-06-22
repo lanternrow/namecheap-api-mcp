@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.lanternrow/namecheap-mcp",
+  "name": "io.github.lanternrow/namecheap-api-mcp",
   "description": "Namecheap API — domains, DNS, contacts, registrar lock, SSL listing, and pricing. Read + safe-write tools (no purchases).",
   "repository": {
-    "url": "https://github.com/lanternrow/namecheap-mcp",
+    "url": "https://github.com/lanternrow/namecheap-api-mcp",
     "source": "github"
   },
   "version": "1.0.0",
   "packages": [
     {
       "registryType": "npm",
-      "identifier": "namecheap-mcp",
+      "identifier": "namecheap-api-mcp",
       "version": "1.0.0",
       "transport": {
         "type": "stdio"

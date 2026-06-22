@@ -1,6 +1,6 @@
-# namecheap-mcp
+# namecheap-api-mcp
 
-[![npm version](https://img.shields.io/npm/v/namecheap-mcp.svg)](https://www.npmjs.com/package/namecheap-mcp)
+[![npm version](https://img.shields.io/npm/v/namecheap-api-mcp.svg)](https://www.npmjs.com/package/namecheap-api-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MCP server for the **[Namecheap API](https://www.namecheap.com/support/api/intro/)** — manage domains, DNS, contacts, registrar locks, and view SSL certificates and pricing, straight from your AI assistant.
@@ -28,7 +28,7 @@ This server ships **read + safe-write** tools only. It can read your account and
   "mcpServers": {
     "namecheap": {
       "command": "npx",
-      "args": ["-y", "namecheap-mcp"],
+      "args": ["-y", "namecheap-api-mcp"],
       "env": {
         "NAMECHEAP_API_USER": "your_username",
         "NAMECHEAP_API_KEY": "your_api_key",
@@ -42,13 +42,13 @@ This server ships **read + safe-write** tools only. It can read your account and
 ### Option: clone and build
 
 ```bash
-git clone https://github.com/lanternrow/namecheap-mcp.git
-cd namecheap-mcp
+git clone https://github.com/lanternrow/namecheap-api-mcp.git
+cd namecheap-api-mcp
 npm install
 npm run build
 ```
 
-Then point your client at `node /path/to/namecheap-mcp/dist/index.js`. For local credentials you can keep a gitignored `.env` (copy `.env.example`) and launch with Node's native flag: `node --env-file=.env dist/index.js`.
+Then point your client at `node /path/to/namecheap-api-mcp/dist/index.js`. For local credentials you can keep a gitignored `.env` (copy `.env.example`) and launch with Node's native flag: `node --env-file=.env dist/index.js`.
 
 ## Environment variables
 

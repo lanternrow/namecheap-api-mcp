@@ -1,12 +1,12 @@
 {
-  "name": "namecheap-mcp",
-  "mcpName": "io.github.lanternrow/namecheap-mcp",
+  "name": "namecheap-api-mcp",
+  "mcpName": "io.github.lanternrow/namecheap-api-mcp",
   "version": "1.0.0",
   "description": "MCP server for the Namecheap API — domains, DNS, contacts, SSL listing, and pricing. Read + safe-write tools only (no purchases). Built for Claude Code and other MCP-compatible AI tools.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "namecheap-mcp": "dist/index.js"
+    "namecheap-api-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -28,11 +28,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lanternrow/namecheap-mcp.git"
+    "url": "git+https://github.com/lanternrow/namecheap-api-mcp.git"
   },
-  "homepage": "https://github.com/lanternrow/namecheap-mcp#readme",
+  "homepage": "https://github.com/lanternrow/namecheap-api-mcp#readme",
   "bugs": {
-    "url": "https://github.com/lanternrow/namecheap-mcp/issues"
+    "url": "https://github.com/lanternrow/namecheap-api-mcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
