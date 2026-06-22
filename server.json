@@ -1,0 +1,57 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lanternrow/namecheap-mcp",
+  "description": "Namecheap API — domains, DNS, contacts, registrar lock, SSL listing, and pricing. Read + safe-write tools (no purchases).",
+  "repository": {
+    "url": "https://github.com/lanternrow/namecheap-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "namecheap-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Namecheap account username (API user)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": false,
+          "name": "NAMECHEAP_API_USER"
+        },
+        {
+          "description": "Namecheap API key from Profile -> Tools -> API Access",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "NAMECHEAP_API_KEY"
+        },
+        {
+          "description": "Whitelisted public IPv4 of the machine running this server",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": false,
+          "name": "NAMECHEAP_CLIENT_IP"
+        },
+        {
+          "description": "Username a command runs on behalf of. Defaults to NAMECHEAP_API_USER; differs only for reseller sub-users.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "NAMECHEAP_USERNAME"
+        },
+        {
+          "description": "API environment: \"production\" (default) or \"sandbox\"",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "NAMECHEAP_ENVIRONMENT"
+        }
+      ]
+    }
+  ]
+}

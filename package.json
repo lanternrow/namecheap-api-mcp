@@ -1,0 +1,52 @@
+{
+  "name": "namecheap-mcp",
+  "mcpName": "io.github.lanternrow/namecheap-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Namecheap API — domains, DNS, contacts, SSL listing, and pricing. Read + safe-write tools only (no purchases). Built for Claude Code and other MCP-compatible AI tools.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "namecheap-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "namecheap",
+    "dns",
+    "domains",
+    "domain-registrar",
+    "claude",
+    "claude-code",
+    "ai-tools"
+  ],
+  "author": "The SEO Engine by Lantern Row <info@lanternrow.com> (https://lanternrow.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanternrow/namecheap-mcp.git"
+  },
+  "homepage": "https://github.com/lanternrow/namecheap-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/lanternrow/namecheap-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "fast-xml-parser": "^4.5.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
