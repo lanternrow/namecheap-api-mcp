@@ -7,7 +7,7 @@ MCP server for the **[Namecheap API](https://www.namecheap.com/support/api/intro
 
 Built for [Claude Code](https://claude.ai/claude-code) and any MCP-compatible AI tool.
 
-Part of **[The SEO Engine](https://lanternrow.com)** toolkit by [Lantern Row](https://lanternrow.com) — AI-powered SEO and social media tooling for agencies and businesses.
+Part of **[The SEO Engine](https://lanternrow.com/seo-engine/)** toolkit by [Rex Jones](https://rexjones.me) — AI-powered SEO and social media tooling for agencies and businesses.
 
 ## Safety model
 
@@ -101,4 +101,4 @@ Then point your client at `node /path/to/namecheap-api-mcp/dist/index.js`. For l
 
 ## License
 
-MIT © [Lantern Row](https://lanternrow.com)
+MIT © [Rex Jones](https://rexjones.me)

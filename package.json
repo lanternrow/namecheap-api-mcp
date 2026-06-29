@@ -1,7 +1,7 @@
 {
   "name": "namecheap-api-mcp",
   "mcpName": "io.github.lanternrow/namecheap-api-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for the Namecheap API — domains, DNS, contacts, SSL listing, and pricing. Read + safe-write tools only (no purchases). Built for Claude Code and other MCP-compatible AI tools.",
   "type": "module",
   "main": "dist/index.js",
